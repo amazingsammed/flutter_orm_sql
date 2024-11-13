@@ -9,10 +9,10 @@ i am not a fun of writing raw queries all the time and putting it in function to
 It is in it's *initial stage*, do not expect much now.
 
 # Main idea behind
- * write your own custom schema in dart;
- * use `dart run` to generate the schema file
- * initial your database based any query started
- * enjoy your coding
+ * Write your own custom schema in dart;
+ * Use `dart run` to generate the schema file
+ * Initial your database based any query started
+ * Enjoy your coding
 
 # Main query style to be implemented
 
@@ -21,14 +21,14 @@ SamDB database = SamDB(......);
 
 databe.user.findMany();
 
-database.user.where(name,isEqualTo: 'john').findMany();
+database.user.where(name ,isEqualTo: 'john').findMany();
 
-database.user.where(name,startWith: 's').findMany();
+database.user.where(name ,startWith: 's').findMany();
 
 database.user.findMany(limit: 20,orderBy: address);
 
 ```
 
 # objective
-Try hard to make all fields type safe
+Trying hard to make all fields type safe
 
